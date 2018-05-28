@@ -14,7 +14,7 @@ own license. Please check it at adafruit.com
 */
 #define ESP32  // set sda and scl pins to 5,4 for ESP32 in MPU6050.h
 #include <Wire.h>  // Only needed for Arduino 1.6.5 and earlier
-#include <MPU6050.h>
+#include <MPU6050.h>  // https://github.com/jarzebski/Arduino-MPU6050
 #include "SSD1306.h" 
 #include <Average.h>
 
